@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Vijash Technologies - Empowering Innovation Together. We specialize in app development, web development, and web designing.">
+    <meta name="keywords" content="Vijash Technologies, app development, web development, web designing, technology agency">
+    <title>Vijash Technologies</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./img/Group 1.svg" type="image/svg+xml">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script
+  src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"
+  type="module"
+></script>
+
+    <script src="https://kit.fontawesome.com/8c3a3b3bc2.js" crossorigin="anonymous"></script>
+   
+</head>
+
+<body theme="white">
+    <!--main container div-->
+    <div class="main w-full ">
+        <!--navbar div-->
+        <div class="navbar w-full  h-[90px] flex justify-between items-center px-10 sticky top-0 z-50 bg-white">
+            <div class="logo">
+                <img src="./img/Company_logo (1).svg" alt="Logo" class="w-auto h-[50px] ">
+            </div>
+            <!--hamburger menu-->
+            <div class="md:hidden flex items-center">
+                <button id="hamburger" class="text-black focus:outline-none">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+            
+
+            <div id="nav-links" class="hidden md:flex flex-col md:flex-row gap-6 md:gap-10">
+                <a href="#home" area-current="page" class="block rounded-md px-3 py-2 text-base font-medium text-black hover:text-[#FDA100]" >Home</a>
+                <a href="./about.html" class="block rounded-md px-3 py-2 text-base font-medium text-black hover:text-[#FDA100]">About Us</a>
+                <a href="./services.html" class="block rounded-md px-3 py-2 text-base font-medium text-black hover:text-[#FDA100]">Services</a>
+                <a href="./Projects.html" class="block rounded-md px-3 py-2 text-base font-medium text-black hover:text-[#FDA100]" >Projects</a>
+                <a href="#" id="nav-contact" class="block rounded-md px-3 py-2 text-base font-medium text-black hover:text-[#FDA100]" onclick="openContactForm()">Contact Us</a>
+            </div>
+            
+
+        </div>
+
+        <!--hero section div-->
+        <div class="hero relative w-full h-[700px] flex justify-center items-center bg-cover bg-center overflow-hidden">
+              <video class="absolute top-0 left-0 w-full h-fill object-fill pointer-events-none z-[-2]" autoplay muted loop>
+                   <source src="./img/6774633-uhd_3840_2160_30fps.mp4" type="video/mp4">
+              </video>
+            <div class="absolute top-0 left-0 w-full h-full bg-black opacity-60 z-[-1]"></div>
+            <div class="hero-text text-center px-4 py-4 text-white md:px-[100px] lg:px-[200px] ">
+                  <h1 class="text-5xl font-bold">Empowering Innovation Together</h1>
+                  <p class="text-lg mt-4">At Vijash Technologies, we specialize in app development, web development, and web designing.</p>
+                  <a href="#" id="nav-contact" onclick="openContactForm()" class="mt-6 inline-block bg-[#FDA100] px-6 py-3 rounded-md hover:bg-[#FDA500]">Get Started</a>
+            </div>
+        </div>
+
+
+        <!--about section div-->
+       <div class="bg-white py-14 px-4 sm:px-6 lg:px-8" data-aos="fade-up" data-aos-duration="1000">
+         <div class="max-w-6xl mx-auto bg-gradient-to-b from-[#fff] to-[#FFF3E0] rounded-2xl shadow-lg/30 px-10 py-12">
+           <h2 class="text-4xl font-bold text-[#FDA100] mb-6 text-center">About Us</h2>
+           <p class="text-gray-700 text-lg leading-relaxed text-center">
+             At Vijash Technologies, we are passionate about delivering high-quality digital solutions. 
+             From web and app development to UI/UX design, our team helps businesses grow through innovative technology. 
+             With a client-first approach and a commitment to excellence, we turn ideas into reality.
+           </p>
+           <div class="mt-6 text-center">
+              <a href="about.html"  class="inline-block text-[#FDA100] hover:text-[#FDA500] font-semibold text-lg">Contact Us →</a>
+           </div>
+          </div> 
+      </div>
+
+      <!--services section div-->
+      <div class="bg-gradient-to-b from-[#fff] to-[#FFF3E0] h-full py-14 px-4 sm:px-6 lg:px-8 text-gray-900 cursor-pointer" >
+          <div class="container mx-auto py-16 px-4 sm:px-4 lg:px-8">
+              <h2 class="text-3xl font-extrabold text-[#FDA100] text-center " data-aos="fade-up" data-aos-duration="1000">Our Services</h2>
+              <p class="mt-4 text-gray-800 text-lg text-center" data-aos="fade-up" data-aos-duration="1200">We offer a wide range of services to help you succeed.</p>
+              <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10"  data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1200">
+                  <div class="bg-gradient-to-b from-[#fff] to-[#FFF3E0] p-16 rounded-lg shadow-md/50 transform hover:-translate-y-2 hover:shadow-2xl transition duration-300">
+                    <dotlottie-player
+                    src="https://lottie.host/b3bfa8dc-c36d-4193-a924-44f620b663c9/NQGiOQy9xp.lottie"
+                    background="transparent"
+                    speed="1"
+                    style="width: 105px; height: 105px"
+                    loop
+                    autoplay
+                  ></dotlottie-player>
+                      <h3 class="text-xl font-semibold text-[#FDA500]" >App Development</h3>
+                      <p class="mt-2  text-yellow-800">We create user-friendly and innovative mobile applications.</p>
+                  </div>
+                  <div class="bg-gradient-to-b from-[#fff] to-[#FFF3E0] p-16 rounded-lg shadow-md/50 transform hover:-translate-y-2 hover:shadow-2xl transition duration-300">
+                    <dotlottie-player
+                    src="https://lottie.host/468a93e8-7a65-4f4b-b415-0574fb1e729a/401mBFuxYD.lottie"
+                    background="transparent"
+                    speed="1"
+                    style="width: 105px; height: 105px"
+                    loop
+                    autoplay
+                    ></dotlottie-player>
+                      <h3 class="text-xl font-semibold text-[#FDA500]">Web Development</h3>
+                      <p class="mt-2 text-yellow-800">We build responsive and dynamic websites tailored to your needs.</p>
+                  </div>
+                  <div class="bg-gradient-to-b from-[#fff] to-[#FFF3E0] p-16 rounded-lg shadow-md/50 transform hover:-translate-y-2 hover:shadow-2xl transition duration-300">
+                    <dotlottie-player
+                    src="https://lottie.host/cf3d3ef7-b908-48bb-87a1-641c430632da/OGM5XNfiUH.lottie"
+                    background="transparent"
+                    speed="1"
+                    style="width: 100px; height: 100px"
+                    loop
+                    autoplay
+                    ></dotlottie-player>
+                      <h3 class="text-xl font-semibold text-[#FDA500]">Designing</h3>
+                      <p class="mt-2 text-yellow-800">We design visually appealing and user-friendly interfaces.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+
+      <!--technologies section div-->
+      <section class="bg-white py-12">
+    <div class="max-w-7xl mx-auto">
+    <h2 class="text-3xl md:text-4xl font-bold text-center text-[#FDA100] mb-8">Technologies We Use</h2>
+
+    <!-- Scrollable container -->
+    <div class="overflow-x-auto scrollbar-hide">
+      <div class="flex space-x-10 px-4 md:px-8 py-4 w-full">
+        <!-- Tech logos (images only, no text) -->
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="w-20 h-20" alt="HTML" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" class="w-20 h-20" alt="CSS" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="w-20 h-20" alt="JavaScript" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" class="w-20 h-20" alt="React" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" class="w-20 h-20" alt="Node.js" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" class="w-20 h-20" alt="MongoDB" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" class="w-20 h-20" alt="Firebase" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" class="w-20 h-20" alt="Figma" />
+        <!-- Add more logos here -->
+      </div>
+    </div>
+  </div>
+</section>
+
+     
+
+
+      <!--Projects section div -->
+      <div class="bg-white py-10 px-4 sm:px-6 lg:px-8 text-gray-900" >
+        <div class="container mx-auto py-10 px-4 sm:px-6 lg:px-8"  data-aos="fade-up" data-aos-duration="1200">
+            <h2 class="text-3xl font-extrabold text-[#FDA100] text-center py-5">Our Projects</h2>
+            <p class="text-gray-800 text-lg text-center">Explore our recent projects that showcase our expertise.</p>
+        </div>
+         <div class="container mx-auto py-5 px-4 sm:px-6 lg:px-8" data-aos="zoom-in"  data-aos-duration="1200">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8" >
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                    <img src="./img/image3.png" alt="Project 1" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <h3 class="text-xl font-semibold text-gray-900">Rent Application</h3>
+                    <p class="mt-2 text-gray-600">Description of Project 1.</p>
+                </div>
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                    <img src="./img/image4.png" alt="Project 2" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <h3 class="text-xl font-semibold text-gray-900">Project 2</h3>
+                    <p class="mt-2 text-gray-600">Description of Project 2.</p>
+                </div>
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                    <img src="./img/image5.png" alt="Project 3" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <h3 class="text-xl font-semibold text-gray-900">Project 3</h3>
+                    <p class="mt-2 text-gray-600">Description of Project 3.</p>
+                </div>
+            </div>
+         </div>
+            <div class="flex items-center justify-center mt-8" data-aos="zoom-in" data-aos-duration="1200">
+              <a href="projects.html" class="px-10 py-2 bg-[#FDA100] text-white rounded hover:bg-orange-700 transition">
+                Explore More
+              </a>
+            </div>
+
+      </div>
+
+      <!--conunting number section div-->
+
+      <div class="p-4 md:p-6 lg:p-8 bg-white text-gray-900" data-aos="fade-up" data-aos-duration="1200">
+        <div class="container mx-auto py-6 px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-extrabold text-[#FDA100] text-center">Our Achievements</h2>
+            <p class="mt-4 text-gray-100 text-lg text-center">We take pride in our accomplishments and the impact we've made.</p>
+        </div>
+
+        <div class="container mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-gray-100 p-6 rounded-lg shadow-xl/10 text-center">
+                    <h3 class="text-4xl font-semibold text-gray-900 my-4 counter " id="counter">0</h3>
+                    <p class="mt-2 text-gray-600">Projects Completed</p>
+                </div>
+                <div class="bg-gray-100 p-6 rounded-lg shadow-xl/10 text-center">
+                    <h3 class="text-4xl font-semibold text-gray-900 my-4 counter " id="counter1">0</h3>
+                    <p class="mt-2 text-gray-600">Happy Clients</p>
+                </div>
+                <div class="bg-gray-100 p-6 rounded-lg shadow-xl/10 text-center">
+                    <h3 class="text-4xl font-semibold text-gray-900 my-4 counter " id="counter2">0</h3>
+                    <p class="mt-2 text-gray-600">Years of Experience</p>
+                </div>
+            </div>
+        </div>
+
+      </div>
+
+
+      <!--contact section div-->
+      <div class="fixed inset-0 z-50 items-center justify-center bg-black/50 backdrop-blur-sm hidden" id="contactForm">
+        <div class="relative bg-white rounded-lg shadow-lg w-full max-w-md mx-auto mt-20 p-6">
+            <button class="absolute top-2 right-2 text-gray-500 hover:text-gray-700" onclick="closeContactForm()">
+                <i class="fas fa-times text-2xl"></i>
+            </button>
+            <h2 class="text-2xl font-bold text-[#FDA100] mb-4">Contact Us</h2>
+            <form id="contactFormContent" onsubmit="sendForm(event)" action="#" >
+                <div class="mb-4">
+                    <label for="name" class="block text-gray-700">Name</label>
+                    <input type="text" id="name" name="name" required class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-[#FDA100]">
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-gray-700">Email</label>
+                    <input type="email" id="email" name="email" required class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-[#FDA100]">
+                </div>
+                <div class="mb-4">
+                    <label for="message" class="block text-gray-700">Message</label>
+                    <textarea id="message" name="message" rows="4" required class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-[#FDA100]"></textarea>
+                </div>
+                <button type="submit" class="w-full bg-[#FDA100] hover:bg-[#FDA500] text-white font-semibold py-2 px-4 rounded-md">Send Message</button>
+            </form>
+
+        </div>
+      </div>
+
+      <!--Thankyou popup-->
+      <div class="fixed inset-0 z-50 items-center justify-center bg-black/50 backdrop-blur-sm hidden" id="thakyou-popup">
+        <div class="bg-white p-10 rounded-lg shadow-lg w-full max-w-md mx-auto mt-20">
+            <h2 class="text-2xl font-bold text-[#FDA100] mb-4">Thank You!</h2>
+            <p class="text-gray-700 mb-6">Your message has been sent successfully. We will get back to you soon.</p>
+            <button class="bg-[#FDA100] hover:bg-[#FDA500] text-white font-semibold py-2 px-4 rounded-md" onclick="closeThankYouPopup()">Close</button>
+
+        </div>
+
+      </div>
+
+
+      
+
+
+
+
+
+
+      <!--footer section div-->
+      <footer class="bg-gray-300 text-white py-8">  
+            
+        <div class="relative max-w-7xl mx-auto px-6 py-16 sm:py-20 lg:px-8 ">
+            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-12">
+                <div class="col-span-1">
+                    <h2 class=" font-bold text-gray-900 mb-4">
+                        <img src="./img/Company_logo (1).svg" alt="Logo" class="w-[130px] h-[30px] ">
+                    </h2>
+                    <p class=" text-gray-600 mt-4 ">Empowering Innovation Together.</p>
+                    <div class="container mx-auto mt-4 translate-y-[-20]">
+                      <h3 class="text-lg font-semibold text-gray-900 ">Follow Us</h3>
+                      <div class="flex  space-x-5 mt-4">
+                        <a href="#" class="text-gray-600 hover:text-orange-700"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-gray-600 hover:text-orange-700"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gray-600 hover:text-orange-700"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="text-gray-600 hover:text-orange-700"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                </div>
+                <div class="col-span-1">
+                    <h3 class="text-lg font-semibold text-gray-900">Quick Links</h3>
+                    <ul class="mt-4 space-y-2">
+                        <li><a href="#home" class="text-gray-600 hover:text-orange-700">Home</a></li>
+                        <li><a href="#about" class="text-gray-600 hover:text-orange-700">About Us</a></li>
+                        <li><a href="#services" class="text-gray-600 hover:text-orange-700">Services</a></li>
+                        <li><a href="#projects" class="text-gray-600 hover:text-orange-700">Projects</a></li>
+                        <li><a href="#contact" class="text-gray-600 hover:text-orange-700">Contact Us</a></li>
+                    </ul>
+
+                </div>
+                <div class="col-span-1">
+                    <h3 class="text-lg font-semibold text-gray-900">Services</h3>
+                    <ul class="mt-4 space-y-2">
+                        <li><a href="#services" class="text-gray-600 hover:text-orange-700">App Development</a></li>
+                        <li><a href="#services" class="text-gray-600 hover:text-orange-700">Web Development</a></li>
+                        <li><a href="#services" class="text-gray-600 hover:text-orange-700">Web Designing</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="col-span-1">
+                    <h3 class="text-lg font-semibold text-gray-900">Contact Us</h3>
+                    <ul class="mt-4 space-y-2">
+                        <li><a href="mailto:5kPnM@example.com" class="text-gray-600 hover:text-orange-700">Email: 5kPnM@example.com</a></li>
+                        <li><a href="tel:+91-123-456-7890" class="text-gray-600 hover:text-orange-700">Phone: +91-123-456-7890</a></li>
+                    </ul>
+                </div> 
+            </div>
+            <div class="mt-8 ">
+                
+                <div class="mt-8 text-center">
+                    <p class="text-gray-600">&copy; 2023 Vijash Technologies. All rights reserved.</p>
+                </div>
+            
+            </div>
+                
+
+            </div>
+            
+        </div>
+
+        </div>
+       
+             
+        
+      </footer>
+
+      
+
+
+
+
+    </div>
+    
+
+
+
+
+
+
+   
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    
+
+     <script src="./script.js"></script>
+</body>
+
+</html>

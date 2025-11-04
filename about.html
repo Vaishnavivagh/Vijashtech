@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="keywords" content="Vijash Technologies, app development, web development, web designing, technology agency">
+    <title>Vijash Technologies</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./img/Group 1.svg" type="image/svg+xml">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <script src="https://kit.fontawesome.com/8c3a3b3bc2.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+
+    <div class="main w-full  bg-white ">
+        <div class="navbar w-[50]  h-[100px] flex justify-between items-center px-10 sticky top-0 z-50 bg-white shadow-md">
+            <div class="logo">
+                <img src="./img/Company_logo (1).svg" alt="Logo" class="w-[130px] h-[130px] ">
+            </div>
+            <div class="nav-links flex gap-10 text-white text-lg space-y-1 px-2 pt-2 pb-2 ">
+                <a href="./index.html" class="block rounded-md px-3 py-2 text-base font-medium text-black hover:text-orange-700"   area-current="page">Home</a>
+                <a href="./about.html" class="block rounded-md px-3 py-2 text-base font-medium text-black hover:text-orange-700">About Us</a>
+                <a href="./services.html" class="block rounded-md px-3 py-2 text-base font-medium text-black hover:text-orange-700">Services</a>
+                <a href="./Projects.html" class="block rounded-md px-3 py-2 text-base font-medium text-black hover:text-orange-700" >Projects</a>
+                <a href="#" id="nav-contact" class="block rounded-md px-3 py-2 text-base font-medium text-black hover:text-[#FDA100]" onclick="openContactForm()">Contact Us</a>
+            </div>
+        </div>
+
+        <!--about us section-->
+        <section id="about" class="bg-white py-14 px-6 " >
+            <div class="max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center gap-10" data-aos="fade-up" data-aos-duration="1000">
+         <!-- Text Content -->
+             <div class="md:w-1/2">
+               <h2 class="text-4xl font-bold text-orange-700 mb-4">About Us</h2>
+                <p class="text-gray-700 text-lg leading-relaxed">
+                  At <strong>Vijash Technologies</strong>, we are passionate about turning ideas into reality through high-quality web development, app development, and modern UI/UX design. Our mission is to empower startups and businesses by delivering fast, secure, and user-friendly digital products.
+                </p>
+                <p class="mt-4 text-gray-700">
+                  With a focus on innovation, collaboration, and excellence, our talented team ensures your digital presence reflects the heart of your brand.
+                </p>
+             </div>
+          <!-- Image Content -->
+           <div class="md:w-1/2">
+              <img src="./img/Gemini_Generated_Image_ias6brias6brias6.png" alt="Development Team Illustration" class="w-full max-w-md mx-auto ">
+            </div>
+            </div>
+        </section>
+
+                <!-- Company Overview Section -->
+        <section class="bg-gray-100 py-16 px-6" id="company-overview">
+            <div class="max-w-7xl mx-auto">
+                <h2 class="text-4xl font-bold text-center text-orange-700 mb-10" data-aos="fade-up" data-aos-duration="1000">Company Overview</h2>
+                <div class="grid md:grid-cols-2 gap-10 items-center" >
+                  <!-- Text -->
+                <div class="text-gray-700" data-aos="fade-right" data-aos-duration="1000">
+                  
+                   <p class="text-gray-700 text-lg leading-relaxed mb-4">
+                   <strong>Vijash Technologies</strong> is a full-stack development agency committed to building high-performance web and mobile applications tailored to client needs. Founded with a vision of enabling innovation through tech, we specialize in:
+                  </p>
+                  <ul class="list-disc list-inside text-gray-700 text-lg space-y-2">
+                     <li>Custom Web & App Development</li>
+                     <li>UI/UX & Responsive Web Design</li>
+                     <li>Admin Dashboards & E-commerce Platforms</li>
+                     <li>Secure & Scalable Frontend/Backend Solutions</li>
+                  </ul>
+                  <p class="mt-6 text-gray-700">
+                     We believe in creating technology that empowers businesses and enhances user experiences. Every project we build is powered by precision, creativity, and passion.
+                  </p>
+                </div>
+
+                 <!-- Image -->
+                <div class="flex justify-center" data-aos="fade-left" data-aos-duration="1000">
+                      <img src="./img/Gemini_Generated_Image_ias6brias6brias6.png" alt="Team Working" class="rounded-xl shadow-xl w-100 max-w-md mx-auto" data-aos="fade-left" data-aos-duration="1000">
+                </div>
+                </div>
+            </div>
+        </section>
+
+
+                 <!--over vision & mission-->
+        <section class="bg-white py-20 px-6" id="mission-vision">
+           <div class="max-w-7xl mx-auto">
+              <h2 class="text-4xl font-bold text-center text-orange-700 mb-4" data-aos="fade-up" data-aos-duration="1000">Our Mission & Vision</h2>
+                <p class="text-center text-gray-600 max-w-2xl mx-auto mb-12 text-lg" data-aos="fade-up" data-aos-duration="1000">
+                  At Vijash Technologies, we believe in crafting digital experiences that empower businesses and inspire innovation.
+                </p>
+              <div class="grid md:grid-cols-2 gap-12 items-center" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1200">
+                  <!-- Mission Card -->
+                  <div class="bg-gradient-to-br from-orange-100 to-white rounded-2xl shadow-xl p-8 hover:scale-105 transition-transform duration-300">
+                       <div class="flex items-center gap-4 mb-4">
+                           <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Mission Icon" class="w-10 h-10">
+                           <h3 class="text-2xl font-semibold text-orange-800">Our Mission</h3>
+                       </div>
+                       <p class="text-gray-700 text-lg">
+                          To deliver cutting-edge web and app solutions that help businesses grow and connect with their audience, using creativity, technology, and user-first design.
+                       </p>
+                  </div>
+                  <!-- Vision Card -->
+                  <div class="bg-gradient-to-br from-orange-100 to-orange-50 rounded-2xl shadow-xl p-8 hover:scale-105 transition-transform duration-300">
+                       <div class="flex items-center gap-4 mb-4">
+                           <img src="https://cdn-icons-png.flaticon.com/512/3039/3039395.png" alt="Vision Icon" class="w-10 h-10">
+                            <h3 class="text-2xl font-semibold text-orange-800">Our Vision</h3>
+                       </div>
+                       <p class="text-gray-700 text-lg">
+                           To become a globally trusted technology partner by building scalable, impactful digital products that shape the future of industries and improve lives.
+                       </p>
+                  </div>
+
+              </div>
+           </div>
+        </section>
+
+                 <!--why choose us-->
+         <section class="bg-white py-16 px-6" id="core-values">
+               <div class="max-w-7xl mx-auto text-center">
+                    <h2 class="text-4xl font-bold text-orange-700 mb-6" data-aos="fade-up" data-aos-duration="800">Why Choose Us</h2>
+                    <p class="text-gray-600 max-w-2xl mx-auto text-lg mb-12" data-aos="fade-up" data-aos-duration="800">
+                         We don just build websites and apps. We build experiences, relationships, and long-term success for your business.
+                    </p>
+                    <div class="grid md:grid-cols-3 gap-10" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
+                        <div class="bg-gray-100 rounded-2xl shadow-md/50 p-8 hover:shadow-xl/70 transition-shadow">
+                             <img src="https://cdn-icons-png.flaticon.com/512/190/190411.png" alt="Innovation Icon" class="w-14 h-14 mx-auto mb-4">
+                             <h3 class="text-xl font-semibold text-orange-800 mb-2">Innovation First</h3>
+                            <p class="text-gray-600 text-base">We embrace modern technologies and push boundaries to bring unique and smart solutions.</p>
+                        </div>
+                        <div class="bg-gray-100 rounded-2xl shadow-md/50 p-8 hover:shadow-xl/70 transition-shadow">
+                            <img src="https://cdn-icons-png.flaticon.com/512/1077/1077063.png" alt="Customer Focus Icon" class="w-14 h-14 mx-auto mb-4">
+                            <h3 class="text-xl font-semibold text-orange-800 mb-2">Client-Centric Approach</h3>
+                            <p class="text-gray-600 text-base">We put our clients first by tailoring our services to meet their goals, timelines, and budgets.</p>
+                        </div>
+                        <div class="bg-gray-100 rounded-2xl shadow-md/50 p-8 hover:shadow-xl/70 transition-shadow">
+                             <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Quality Icon" class="w-14 h-14 mx-auto mb-4">
+                             <h3 class="text-xl font-semibold text-orange-800 mb-2">Quality & Integrity</h3>
+                             <p class="text-gray-600 text-base">Our team is committed to delivering top-notch results with transparency and reliability.</p>
+                        </div>
+                    </div>
+                </div>
+         </section>
+
+                 <!--call to action section-->
+         <section class="bg-gray-900 py-16 px-6 text-black text-center rounded-lg mt-20">
+                <div class="max-w-3xl mx-auto" >
+                      <h2 class="text-4xl font-bold mb-4 text-white " data-aos="fade-up" data-aos-duration="800">Ready to Bring Your Vision to Life?</h2>
+                      <p class="text-lg mb-8 text-white" data-aos="fade-up" data-aos-duration="800">Partner with Vijash Technologies to turn ideas into impactful digital solutions.</p>
+                      <!-- <a href="#contact" class="inline-block bg-white text-orange-700 font-semibold py-3 px-8 rounded-full shadow-lg hover:bg-orange-100 transition duration-300" data-aos="zoom-in" data-aos-duration="800">
+                       Get In Touch
+                      </a> -->
+                      <button onclick="openContactForm()" class="bg-orange-600 text-white px-6 py-3 rounded-md hover:bg-orange-700" id="nav-contact">
+                        Get in Touch
+                      </button>
+                      
+                      
+                </div>
+          </section>
+
+                 <!--footer section-->
+        <footer class="bg-gray-300 text-white py-8">   
+           <div class="relative max-w-7xl mx-auto px-6 py-16 sm:py-20 lg:px-8 ">
+            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-12">
+                <div class="col-span-1">
+                    <h2 class=" font-bold text-gray-900 mb-4">
+                        <img src="./img/Company_logo (1).svg" alt="Logo" class="w-[130px] h-[30px] ">
+                    </h2>
+                    <p class=" text-gray-600 mt-4 ">Empowering Innovation Together.</p>
+                    <div class="container mx-auto mt-4 translate-y-[-20]">
+                      <h3 class="text-lg font-semibold text-gray-900 ">Follow Us</h3>
+                      <div class="flex  space-x-5 mt-4">
+                        <a href="#" class="text-gray-600 hover:text-orange-700"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-gray-600 hover:text-orange-700"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gray-600 hover:text-orange-700"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="text-gray-600 hover:text-orange-700"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                </div>
+                <div class="col-span-1">
+                    <h3 class="text-lg font-semibold text-gray-900">Quick Links</h3>
+                    <ul class="mt-4 space-y-2">
+                        <li><a href="#home" class="text-gray-600 hover:text-orange-700">Home</a></li>
+                        <li><a href="#about" class="text-gray-600 hover:text-orange-700">About Us</a></li>
+                        <li><a href="#services" class="text-gray-600 hover:text-orange-700">Services</a></li>
+                        <li><a href="#projects" class="text-gray-600 hover:text-orange-700">Projects</a></li>
+                        <li><a href="#contact" class="text-gray-600 hover:text-orange-700">Contact Us</a></li>
+                    </ul>
+
+                </div>
+                <div class="col-span-1">
+                    <h3 class="text-lg font-semibold text-gray-900">Services</h3>
+                    <ul class="mt-4 space-y-2">
+                        <li><a href="#services" class="text-gray-600 hover:text-orange-700">App Development</a></li>
+                        <li><a href="#services" class="text-gray-600 hover:text-orange-700">Web Development</a></li>
+                        <li><a href="#services" class="text-gray-600 hover:text-orange-700">Web Designing</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="col-span-1">
+                    <h3 class="text-lg font-semibold text-gray-900">Contact Us</h3>
+                    <ul class="mt-4 space-y-2">
+                        <li><a href="mailto:5kPnM@example.com" class="text-gray-600 hover:text-orange-700">Email: 5kPnM@example.com</a></li>
+                        <li><a href="tel:+91-123-456-7890" class="text-gray-600 hover:text-orange-700">Phone: +91-123-456-7890</a></li>
+                    </ul>
+                </div> 
+            </div>
+            <div class="mt-8 ">
+                
+                <div class="mt-8 text-center">
+                    <p class="text-gray-600">&copy; 2023 Vijash Technologies. All rights reserved.</p>
+                </div>
+            
+            </div>
+                
+
+              </div>
+            
+            </div>
+
+          </div>
+        
+        </footer>
+
+        <div class="fixed inset-0 z-50 items-center justify-center bg-black/50 backdrop-blur-sm hidden" id="contactForm">
+            <div class="relative bg-white rounded-lg shadow-lg w-full max-w-md mx-auto mt-20 p-6">
+                <button class="absolute top-2 right-2 text-gray-500 hover:text-gray-700" onclick="closeContactForm()">
+                    <i class="fas fa-times text-2xl"></i>
+                </button>
+                <h2 class="text-2xl font-bold text-[#FDA100] mb-4">Contact Us</h2>
+                <form id="contactFormContent" onsubmit="sendForm(event)" action="#" >
+                    <div class="mb-4">
+                        <label for="name" class="block text-gray-700">Name</label>
+                        <input type="text" id="name" name="name" required class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-[#FDA100]">
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="block text-gray-700">Email</label>
+                        <input type="email" id="email" name="email" required class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-[#FDA100]">
+                    </div>
+                    <div class="mb-4">
+                        <label for="message" class="block text-gray-700">Message</label>
+                        <textarea id="message" name="message" rows="4" required class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-[#FDA100]"></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-[#FDA100] hover:bg-[#FDA500] text-white font-semibold py-2 px-4 rounded-md">Send Message</button>
+                </form>
+    
+            </div>
+          </div>
+    
+          <!--Thankyou popup-->
+          <div class="fixed inset-0 z-50 items-center justify-center bg-black/50 backdrop-blur-sm hidden" id="thakyou-popup">
+            <div class="bg-white p-10 rounded-lg shadow-lg w-full max-w-md mx-auto mt-20">
+                <h2 class="text-2xl font-bold text-[#FDA100] mb-4">Thank You!</h2>
+                <p class="text-gray-700 mb-6">Your message has been sent successfully. We will get back to you soon.</p>
+                <button class="bg-[#FDA100] hover:bg-[#FDA500] text-white font-semibold py-2 px-4 rounded-md" onclick="closeThankYouPopup()">Close</button>
+    
+            </div>
+    
+          </div>
+    
+
+        
+
+
+
+
+ 
+
+
+    </div>
+
+
+    <script src="./script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    
+</body>
+</html>
